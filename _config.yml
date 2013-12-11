@@ -6,7 +6,7 @@ destination: ./_site
 plugins: ./_plugins
 lsi: true
 pygments: true
-markdown: rdiscount
+markdown: kramdown
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'vender']
 
 # Configuration for url/path
@@ -16,18 +16,18 @@ exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'vender']
 # * Project page:
 #   url: http://USERNAME.github.com/REPOSITORY
 #   baseurl: /REPOSITORY
-url: http://USERNAME.github.com
+url: http://kwmr.github.com
 baseurl: 
 
 # Configuration for permalink
 # `permalink`: none, pretty or /blog/:categories/:title.html
-permalink: /blog/:year/:month/:title/
+permalink: pretty
 
 # Configuration for site
-title: The Code Folio
-description: A personal log of life coding.
-author: USERNAME
-email: USERNAME@example.com
+title: いい感じ
+description: 僕の日々のいい感じな断片寄せ集め.
+author: kwmr
+email: kwmrakr@gmail.com
 
 # Configuration for blog
 lang: ja
@@ -110,7 +110,7 @@ facebook:
     locale: ja_JP
 
 twitter:
-    username: twitterapi
+    username: kwmr
     count: 5
     exclude_replies: true
     show_screen_name: true
@@ -123,4 +123,4 @@ twitter:
 
 pocket: true
 
-#hatena: true
+hatena: true
